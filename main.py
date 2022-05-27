@@ -38,7 +38,7 @@ if __name__ == "__main__":
     parser.add_argument('--video_paths', nargs='+', help='space-separated paths to videos')
     parser.add_argument('--file_with_video_paths', help='.txt file where each line is a path')
     parser.add_argument('--device_ids', type=int, nargs='+', help='space-separated device ids')
-    parser.add_argument('--tmp_path', default='./tmp',
+    parser.add_argument('--tmp_path', default='./tmp1',
                         help='folder to store the extracted frames before the extraction')
     parser.add_argument('--keep_frames', dest='keep_frames', action='store_true', default=False,
                         help='to keep frames after feature extraction')

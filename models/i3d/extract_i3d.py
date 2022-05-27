@@ -122,7 +122,7 @@ class ExtractI3D(torch.nn.Module):
 #     parser = argparse.ArgumentParser(description='Extract I3D Features')
 #     parser.add_argument('--video_paths', nargs='+', help='space-separated paths to videos')
 #     parser.add_argument('--file_with_video_paths', help='.txt file where each line is a path')
-#     parser.add_argument('--tmp_path', default='../tmp'
+#     parser.add_argument('--tmp_path', default='../temp'
 #                         help='folder to store the extracted frames before the extraction')
 #     parser.add_argument('--output_path', default='./output', help='where to store results if saved')
 #     parser.add_argument('--pwc_path', default='./checkpoints/pwc_net.pt')
